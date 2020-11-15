@@ -1,0 +1,5 @@
+name: XPBottle
+author: wave
+version: wave
+main: wave\XpBottle
+api: 3.0.0
