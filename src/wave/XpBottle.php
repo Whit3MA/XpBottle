@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lilian
- * Date: 18/08/2019
- * Time: 21:50
- */
 
-namespace Virvolta;
+namespace wave;
 
-use Virvolta\command\XPBottle as CMD;
+use wave\command\XPBottle as CMD;
 use pocketmine\plugin\PluginBase;
-use Virvolta\listener\XPListener;
+use wave\listener\XPListener;
 
 class XpBottle extends PluginBase
 {
@@ -19,7 +13,7 @@ class XpBottle extends PluginBase
     {
         $this->getServer()->getCommandMap()->register("XPBottle", new CMD());
         new XPListener($this);
-        $this->getLogger()->info("Le plugin a été chargé par Virvolta");
+        $this->getLogger()->info("Le plugin a été chargé");
     }
 
 }
