@@ -1,6 +1,6 @@
 <?php
 
-namespace Virvolta\command;
+namespace wave\command;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
