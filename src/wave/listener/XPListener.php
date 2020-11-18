@@ -1,17 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lilian
- * Date: 18/08/2019
- * Time: 21:57
- */
-namespace Virvolta\listener;
+
+namespace wave\listener;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat;
-use Virvolta\XpBottle;
+use wave\XpBottle;
 
 class XPListener implements Listener
 {
